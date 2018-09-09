@@ -5,19 +5,22 @@
 # 已将相关文件推送到GitHub
 
 ## 笔记
-```
-# git init
+#### git init
 将当前目录初始化为git工作区</br>
 会在当前目录生成.git文件夹, 切勿修改此文件夹的内容
-# git add <file name>
+---
+#### git add <file name>
 将工作区文件修改添加至暂存区</br>
 可连续执行多次add操作
-# git commit -m <本次提交的描述>
+---
+#### git commit -m <本次提交的描述>
 将暂存区的所有内容保存至本地仓库
-# git status
+---
+#### git status
 显示有变更的文件
-# git log
+---
+#### git log
 commit日志
-# git reflog
+---
+#### git reflog
 版本变更日志
-```
